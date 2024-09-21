@@ -1,5 +1,5 @@
 /* General Styles for Navbar */
-.navbar {
+.navbar1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +14,7 @@
     font-size: 20px;
     color: #333;
     margin: 0;
+    margin-left: 50px;
 }
 
 .navbar-right {
@@ -22,21 +23,22 @@
     justify-content: flex-end;
     width: 100%;
     margin-top: 10px;
+    margin-right: 50px;
 }
 
 /* Search box */
-.search-box input {
+.search-box1 input {
     padding: 10px;
-    width: 100%;
-    max-width: 200px;
+    width: 75%;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 50px;
     box-sizing: border-box;
 }
 
-/* Add button */
-.add-btn {
+/* Add cari button */
+.cari-btn1 {
     background-color: #FFC488;
     padding: 10px 15px;
     border: none;

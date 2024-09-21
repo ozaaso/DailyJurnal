@@ -2,7 +2,7 @@
 const tabs = [
     { id: 'tab-harian', url: 'konten.php' },
     { id: 'tab-form', url: 'form.php' },
-    { id: 'tab-list', url: 'list.html' }
+    { id: 'tab-list', url: 'list.php' }
 ];
 
 // Add event listeners for each tab to handle navigation
