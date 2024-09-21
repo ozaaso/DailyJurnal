@@ -1,141 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muthoba'ah Harian</title>
-    <!-- Link Bootstrap CSS untuk styling -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        /* Custom CSS */
-        body {
-            background-color: #f9f9f9;
-            font-family: Arial, sans-serif;
-        }
+   <!-- Tab Headear -->
+<?php include 'layout/header.php';?>
+<!-- design konten -->
+<link rel="stylesheet" href="../../public/css/harian.css">
 
-        .header {
-            padding: 10px;
-            text-align: center;
-        }
-
-        .orange-banner {
-            background-color: #f8b74a;
-            height: 100px;
-        }
-
-        .profile {
-            margin-top: -50px;
-            text-align: center;
-        }
-
-        .profile img {
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
-            border: 3px solid white;
-            object-fit: cover;
-        }
-
-        .profile h2 {
-            margin: 10px 0 5px 0;
-            font-size: 24px;
-        }
-
-        .profile p {
-            margin: 0;
-            color: gray;
-        }
-
-        .date {
-            text-align: center;
-            margin: 20px 0;
-            color: gray;
-            font-size: 14px;
-        }
-
-        .checklist-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 20px auto;
-            max-width: 800px;
-        }
-
-        .checklist {
-            flex: 1;
-            padding: 20px;
-        }
-
-        .checklist-item {
-            margin: 10px 0;
-        }
-
-        .checklist-item span {
-            margin-left: 5px;
-        }
-
-        input[type="checkbox"] {
-            accent-color: #f8b74a; /* Warna orange saat checkbox dicentang */
-        }
-    </style>
 </head>
 <body>
 
-<!-- Header -->
-<div class="header">
-    <button class="btn btn-outline-secondary">Muthoba'ah Harian</button>
-    <button class="btn btn-outline-secondary">list</button>
-</div>
+   <!-- Tab navbar -->
+   <?php include 'layout/navbar.php';?>
 
-<!-- Orange Banner -->
-<div class="orange-banner"></div>
+<div class="container">
 
-<!-- Profile -->
-<div class="profile">
-    <img src="https://via.placeholder.com/100" alt="Profile Image">
-    <h2>Kusmiasih</h2>
-    <p>Bekasi</p>
-</div>
 
-<!-- Date -->
-<div class="date">
-    Minggu, 26 November 2023
-</div>
-
-<!-- Checklist -->
-<div class="checklist-container">
-    <!-- Kolom Pertama -->
-    <div class="checklist">
-        <div class="checklist-item"><input type="checkbox"> <span>1. Tahajud</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>2. Subuh on time</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>3. Qobliyah subuh</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>4. Tilawah pagi</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>5. Zikir pagi (Al Ma'tsurat)</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>6. Sedekah subuh</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>7. Dhuha</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>8. Mendoakan org lain</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>9. Zuhur on time</span></div>
+   <!-- Profile section -->
+     <!-- Profile section -->
+     <div class="card">
+       <img src="https://cdn-icons-png.flaticon.com/512/147/147144.png" alt="Avatar">
+       <div class="profile-info">
+           <p class="name">John Doe</p>
+           <p class="origin">New York, USA</p>
+           <p class="date">September 22, 2024</p>
+       </div>
+   </div>
+   <br><br>
+<div class="card">
+        <div class="card-header">
+            <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="icon">
+            <h2>Ceklist Jurnal Harian</h2>
+        </div>
+        <ul class="checklist">
+        <li>
+                <input type="checkbox" name="ibadah[]" value="Tahajud" id="tahajud">
+                <label for="tahajud">Tahajud</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Subuh on time" id="subuh-on-time">
+                <label for="subuh-on-time">Subuh on time</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Sholat Fajr" id="qobliyah-subuh">
+                <label for="qobliyah-subuh">Qobliyah Subuh</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Tilawah pagi" id="tilawah-pagi">
+                <label for="tilawah-pagi">Tilawah pagi</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Zikir pagi" id="zikir-pagi">
+                <label for="zikir-pagi">Zikir pagi</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Sedekah Subuh" id="sedekah-subuh">
+                <label for="sedekah-subuh">Sedekah Subuh</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Dhuha" id="dhuha">
+                <label for="dhuha">Dhuha</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Mendoakan orang lain" id="mendoakan-orang-lain">
+                <label for="mendoakan-orang-lain">Mendoakan orang lain</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Zuhur on time" id="zuhur-on-time">
+                <label for="zuhur-on-time">Zuhur on time</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Qobliyah zuhur" id="qobliyah-zuhur">
+                <label for="qobliyah-zuhur">Qobliyah zuhur</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Ba'diyah zuhur" id="badiyah-zuhur">
+                <label for="badiyah-zuhur">Ba'diyah zuhur</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Asar on time" id="asar-on-time">
+                <label for="asar-on-time">Asar on time</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Magrib on time" id="magrib-on-time">
+                <label for="magrib-on-time">Magrib on time</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Tilawah malam" id="tilawah-malam">
+                <label for="tilawah-malam">Tilawah malam</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Isya on time" id="isya-on-time">
+                <label for="isya-on-time">Isya on time</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Baca Al Waqi'ah" id="baca-al-waqiah">
+                <label for="baca-al-waqiah">Baca Al Waqi'ah</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Baca Al Mulk" id="baca-al-mulk">
+                <label for="baca-al-mulk">Baca Al Mulk</label>
+            </li>
+            <li>
+                <input type="checkbox" name="ibadah[]" value="Berhalangan" id="berhalangan">
+                <label for="berhalangan">Berhalangan</label>
+            </li>
+        </ul>
+   
     </div>
-
-    <!-- Kolom Kedua -->
-    <div class="checklist">
-        <div class="checklist-item"><input type="checkbox"> <span>10. Qobliyah (sebelum zuhur)</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>11. Ba'diyah zuhur (setelah zuhur)</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>12. Asar on time</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>13. Magrib on time</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>14. Tilawah malam</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>15. Isya on time</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>16. Baca Al Waqi'ah bisa malam(pagi)</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>17. Baca Al Mulk</span></div>
-        <div class="checklist-item"><input type="checkbox"> <span>18. Berhalangan</span></div>
-    </div>
+    <br><br><br><br><br>
 </div>
 
-<!-- Link ke file JS Bootstrap -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Tab Bar -->
+<?php include 'layout/tab.php';?>
+
+<!-- tab js -->
+<script src="../../public/js/tab.js"></script>
+
+<script>
+    function toggleContextMenu(element) {
+        console.log('Clicked the menu icon');  // Debugging check
+        const contextMenu = element.closest('.card').querySelector('.context-menu');
+        
+        // Toggle the context menu visibility
+        if (contextMenu.style.display === 'block') {
+            console.log('Hiding context menu');
+            contextMenu.style.display = 'none';
+        } else {
+            console.log('Showing context menu');
+            // Hide all other context menus
+            document.querySelectorAll('.context-menu').forEach(menu => menu.style.display = 'none');
+            contextMenu.style.display = 'block';
+        }
+
+        // Close the menu if clicked outside
+        document.addEventListener('click', function(event) {
+            if (!element.contains(event.target) && !contextMenu.contains(event.target)) {
+                console.log('Click detected outside menu');
+                contextMenu.style.display = 'none';
+            }
+        }, { once: true });
+    }
+    </script>
 
 </body>
+<footer>ini adalah footer</footer>
 </html>
