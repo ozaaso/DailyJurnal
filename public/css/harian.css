@@ -129,11 +129,11 @@ bol */
     justify-content: space-between;
     width: 300px;
     height: 100px;
-    background-color: #474747;
+    background-color: #f0cea9;
     border-radius: 10px;
     padding: 10px;
     position: relative;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(183, 176, 176, 0.1);
 }
 
 /* Avatar - positioned top-left */
@@ -154,7 +154,7 @@ bol */
     left: 10px;
     font-size: 16px;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
 }
 
 /* Right-side container for origin and date */
@@ -168,12 +168,12 @@ bol */
 /* Styling for the origin (aligned with the top-right) */
 .origin {
     font-size: 14px;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 5px;
 }
 
 /* Styling for the date (under the origin) */
 .date {
     font-size: 12px;
-    color: #999;
+    color: #5d5d5d;
 }
