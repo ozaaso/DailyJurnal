@@ -4,8 +4,8 @@
      <!-- Tab Headear -->
 <?php include 'layout/header.php';?>
 
+    <link rel="stylesheet" href="../../public/css/list.css">
     <link rel="stylesheet" href="../../public/css/harian.css">
-    <!-- <link rel="stylesheet" href="../../public/css/harian.css"> -->
     
 </head>
  <!-- Tab navbar -->
@@ -14,25 +14,23 @@
 
 <?php include 'layout/navbar.php';?>
 
-<div class="container-form">
 
-<div class="profile-container">
-    <!-- Avatar -->
-    <img src="../../public/img/woman.png" alt="Avatar" class="avatar">
 
-    <!-- Name in the bottom left -->
-    <div class="name">
-        <p>Mazia Banita</p>
-    </div>
 
-    <!-- Origin and Date in the right section -->
-    <div class="info-right">
-        <p class="origin">Jakarta</p>
-        <p class="date">September 22, 2024</p>
-    </div>
-</div>
 
-    <h2>Formulir Jurnal</h2>
+
+<div class="container">
+    
+        <div class="list-container">
+        <div class="list-item01">
+            <div class="list-icon"></div>
+            <div class="list-details01">
+                <p>Mak Ici</p>
+                <span>Purworejo</span>
+                <span>10 November 2024</span>
+            </div>
+        </div>
+        <h2>Formulir Jurnal</h2>
     <form>
       
         <div class="checkbox-grid">
@@ -74,7 +72,10 @@
 
     
     </form>
-</div>
+            
+        </div>
+   
+</div><br><br><br><br>
 
 
 

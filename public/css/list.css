@@ -10,6 +10,44 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+.container01 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+.list-container01 {
+    background-color: #FFE7C6;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.list-item01 {
+    border-radius: 10px;
+    background-color: #FFE7C6;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    
+}
+.list-item01:last-child {
+    border-bottom: none;
+}
+.list-details01 {
+    
+    flex-grow: 1;
+}
+.list-details01 p {
+    
+    margin: 0;
+    font-size: 20px;
+}
+.list-details01 span {
+    display: block;
+    font-size: 15px;
+    color: #888;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -53,6 +91,7 @@ body {
     align-items: center;
     padding: 15px 0;
     border-bottom: 1px solid #ddd;
+    
 }
 .list-item:last-child {
     border-bottom: none;
@@ -63,6 +102,7 @@ body {
     background-color: #e0e0e0;
     border-radius: 8px;
     margin-right: 15px;
+    margin-left: 20px;
 }
 .list-details {
     flex-grow: 1;
@@ -80,4 +120,14 @@ body {
     font-size: 18px;
     cursor: pointer;
     color: #888;
+}
+
+.list-link {
+    text-decoration: none; /* Hilangkan garis bawah */
+    color: inherit; /* Warna mengikuti elemen induk */
+    display: block; /* Agar seluruh div bisa diklik */
+}
+
+.list-link:hover {
+    cursor: pointer; /* Ganti cursor saat hover */
 }

@@ -15,142 +15,91 @@
 
 <div class="container">
     <div class="list-container">
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>2</p>
-                <span>Tuesday, January 2, 2024</span>
+        <a href="bulanan.php" class="list-link">
+            <div class="list-container01">
+                <div class="list-item">
+                    <div class="list-details">
+                        <p>Mak Ici</p>
+                        <span>Jakarta</span>
+                    </div>
+                </div>     
             </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>q</p>
-                <span>Tuesday, January 2, 2024</span>
+        </a><br>
+        <a href="bulanan.php" class="list-link">
+            <div class="list-container01">
+                <div class="list-item">
+                    <div class="list-details">
+                        <p>Mak Ubay</p>
+                        <span>Cicalengka</span>
+                    </div>
+                </div>     
             </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>a</p>
-                <span>Tuesday, January 2, 2024</span>
+        </a><br>
+        <a href="bulanan.php" class="list-link">
+            <div class="list-container01">
+                <div class="list-item">
+                    <div class="list-details">
+                        <p>Mak Ubay</p>
+                        <span>Cicalengka</span>
+                    </div>
+                </div>     
             </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>f</p>
-                <span>Tuesday, January 2, 2024</span>
+        </a><br>
+        <a href="bulanan.php" class="list-link">
+            <div class="list-container01">
+                <div class="list-item">
+                    <div class="list-details">
+                        <p>Mak Ubay</p>
+                        <span>Cicalengka</span>
+                    </div>
+                </div>     
             </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>Bunaiyyah</p>
-                <span>Monday, November 27, 2023</span>
+        </a><br>
+        <a href="bulanan.php" class="list-link">
+            <div class="list-container01">
+                <div class="list-item">
+                    <div class="list-details">
+                        <p>Mak Ubay</p>
+                        <span>Cicalengka</span>
+                    </div>
+                </div>     
             </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>Ummu Aliya</p>
-                <span>Monday, November 27, 2023</span>
+        </a><br>
+        <a href="bulanan.php" class="list-link">
+            <div class="list-container01">
+                <div class="list-item">
+                    <div class="list-details">
+                        <p>Mak Ubay</p>
+                        <span>Cicalengka</span>
+                    </div>
+                </div>     
             </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>f</p>
-                <span>Tuesday, January 2, 2024</span>
+        </a><br>
+        <a href="bulanan.php" class="list-link">
+            <div class="list-container01">
+                <div class="list-item">
+                    <div class="list-details">
+                        <p>Mak Ubay</p>
+                        <span>Cicalengka</span>
+                    </div>
+                </div>     
             </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>Bunaiyyah</p>
-                <span>Monday, November 27, 2023</span>
+        </a><br>
+        <a href="bulanan.php" class="list-link">
+            <div class="list-container01">
+                <div class="list-item">
+                    <div class="list-details">
+                        <p>Mak Ubay</p>
+                        <span>Cicalengka</span>
+                    </div>
+                </div>     
             </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>Ummu Aliya</p>
-                <span>Monday, November 27, 2023</span>
-            </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>f</p>
-                <span>Tuesday, January 2, 2024</span>
-            </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>Bunaiyyah</p>
-                <span>Monday, November 27, 2023</span>
-            </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>Ummu Aliya</p>
-                <span>Monday, November 27, 2023</span>
-            </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>f</p>
-                <span>Tuesday, January 2, 2024</span>
-            </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>Bunaiyyah</p>
-                <span>Monday, November 27, 2023</span>
-            </div>
-            <div class="options">...</div>
-        </div>
-
-        <div class="list-item">
-            <div class="list-icon"></div>
-            <div class="list-details">
-                <p>Ummu Aliya</p>
-                <span>Monday, November 27, 2023</span>
-            </div>
-            <div class="options">...</div>
-        </div>
+        </a><br>
+        
+    
+    
     </div>
-</div>
+</div><br><br><br><br><br><br>
 
 
 <!-- Tab Bar -->

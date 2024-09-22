@@ -9,11 +9,13 @@ body {
 /* Gaya Khusus untuk Halaman Form */
 .container-form {
     max-width: 500px;
-    margin: 50px auto;
+    margin: 20px auto;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
+    
+    
 }
 
 .container-form h2 {

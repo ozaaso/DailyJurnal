@@ -4,7 +4,6 @@
      <!-- Tab Headear -->
 <?php include 'layout/header.php';?>
 
-    <link rel="stylesheet" href="../../public/css/list.css">
     <link rel="stylesheet" href="../../public/css/form.css">
     
 </head>
@@ -14,14 +13,9 @@
 
 <?php include 'layout/navbar.php';?>
 
-
-
-
-
-
-<div class="container">
-        <div class="list-container">
-        <form>
+<div class="container-form">
+    <h2>Formulir Jurnal</h2>
+    <form>
         <label for="name">Nama <span style="color: red;"></span></label>
         <input type="text" id="name" name="name" class="input-form1" required>
 
@@ -70,10 +64,7 @@
         <button type="submit" class="tombol1">Submit</button>
         <button type="button" class="cancel-button">Cancel</button>
     </form>
-            
-        </div><br><br>
-  
-</div><br><br><br><br><br><br><br><br>
+</div>
 
 
 
