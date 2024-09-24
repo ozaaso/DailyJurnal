@@ -49,6 +49,7 @@ body {
 }
 
 .checkbox-grid {
+    font-size: 13px;
     accent-color: #FFA500;
     display: flex;
     justify-content: space-between;

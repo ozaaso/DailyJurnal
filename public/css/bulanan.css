@@ -86,13 +86,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-.list-item {
-    display: flex;
-    align-items: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #ddd;
-    
-}
+
 .list-item:last-child {
     border-bottom: none;
 }
@@ -131,6 +125,43 @@ body {
 .list-link:hover {
     cursor: pointer; /* Ganti cursor saat hover */
 }
+
+
+.list-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+    
+
+    
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+    background-color: #f0f0f0;
+}
+
 
 .pagination {
     display: flex;

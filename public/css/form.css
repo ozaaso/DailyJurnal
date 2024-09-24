@@ -20,14 +20,14 @@ body {
 
 .container-form h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
     color: #333;
 }
 
 .label-form {
-    font-size: 14px;
+    font-size: 10px;
     color: #555;
     margin-bottom: 5px;
     display: block;
@@ -51,6 +51,7 @@ body {
 }
 
 .checkbox-grid {
+    font-size: 13px;
     accent-color: #FFA500;
     display: flex;
     justify-content: space-between;

@@ -4,7 +4,7 @@
      <!-- Tab Headear -->
 <?php include 'layout/header.php';?>
 
-    <link rel="stylesheet" href="../../public/css/list.css">
+    <link rel="stylesheet" href="../../public/css/bulanan.css">
     
 </head>
  <!-- Tab navbar -->
@@ -33,62 +33,131 @@
 <div class="container">
     
         <div class="list-container">
-            <a href="harian.php" class="list-link">
-                <div class="list-item">
-                    <div class="list-details">
-                        <p>Tuesday, January 2, 2024</p>
-                        <span></span>
-                    </div>
-                    <div class="options">...</div>
-                </div> 
-            </a>
-            <a href="harian.php" class="list-link">
-                <div class="list-item">
-                    <div class="list-details">
-                        <p>Tuesday, January 2, 2024</p>
-                        <span></span>
-                    </div>
-                    <div class="options">...</div>
-                </div> 
-            </a>   
-            <a href="harian.php" class="list-link">
-                <div class="list-item">
-                    <div class="list-details">
-                        <p>Tuesday, January 2, 2024</p>
-                        <span></span>
-                    </div>
-                    <div class="options">...</div>
-                </div> 
-            </a>      
-            <a href="harian.php" class="list-link">
-                <div class="list-item">
-                    <div class="list-details">
-                        <p>Tuesday, January 2, 2024</p>
-                        <span></span>
-                    </div>
-                    <div class="options">...</div>
-                </div> 
-            </a>   
-            <a href="harian.php" class="list-link">
-                <div class="list-item">
-                    <div class="list-details">
-                        <p>Tuesday, January 2, 2024</p>
-                        <span></span>
-                    </div>
-                    <div class="options">...</div>
-                </div> 
-            </a>   
-            <a href="harian.php" class="list-link">
-                <div class="list-item">
-                    <div class="list-details">
-                        <p>Tuesday, January 2, 2024</p>
-                        <span></span>
-                    </div>
-                    <div class="options">...</div>
-                </div> 
-            </a>   
-          
+           
+
             
+  
+            
+            <div class="list-item">
+                <div class="list-details">
+                    <p><a href="harian.php" class="list-link">Tuesday, January 2, 2024</a>   </p>
+                    <span></span>
+                </div>
+                <div class="options" onclick="toggleMenu(this)">...</div>
+                <div class="dropdown-menu">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="list-details">
+                    <p><a href="harian.php" class="list-link">Tuesday, January 2, 2024</a>   </p>
+                    <span></span>
+                </div>
+                <div class="options" onclick="toggleMenu(this)">...</div>
+                <div class="dropdown-menu">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="list-details">
+                    <p><a href="harian.php" class="list-link">Tuesday, January 2, 2024</a>   </p>
+                    <span></span>
+                </div>
+                <div class="options" onclick="toggleMenu(this)">...</div>
+                <div class="dropdown-menu">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="list-details">
+                    <p><a href="harian.php" class="list-link">Tuesday, January 2, 2024</a>   </p>
+                    <span></span>
+                </div>
+                <div class="options" onclick="toggleMenu(this)">...</div>
+                <div class="dropdown-menu">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="list-details">
+                    <p><a href="harian.php" class="list-link">Tuesday, January 2, 2024</a>   </p>
+                    <span></span>
+                </div>
+                <div class="options" onclick="toggleMenu(this)">...</div>
+                <div class="dropdown-menu">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="list-details">
+                    <p><a href="harian.php" class="list-link">Tuesday, January 2, 2024</a>   </p>
+                    <span></span>
+                </div>
+                <div class="options" onclick="toggleMenu(this)">...</div>
+                <div class="dropdown-menu">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="list-details">
+                    <p><a href="harian.php" class="list-link">Tuesday, January 2, 2024</a>   </p>
+                    <span></span>
+                </div>
+                <div class="options" onclick="toggleMenu(this)">...</div>
+                <div class="dropdown-menu">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="list-details">
+                    <p><a href="harian.php" class="list-link">Tuesday, January 2, 2024</a>   </p>
+                    <span></span>
+                </div>
+                <div class="options" onclick="toggleMenu(this)">...</div>
+                <div class="dropdown-menu">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="list-details">
+                    <p><a href="harian.php" class="list-link">Tuesday, January 2, 2024</a>   </p>
+                    <span></span>
+                </div>
+                <div class="options" onclick="toggleMenu(this)">...</div>
+                <div class="dropdown-menu">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+               
+            
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#">&laquo;</a> <!-- Previous -->
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <!-- <a href="#">4</a>
+                <a href="#">5</a> -->
+                <a href="#">&raquo;</a> <!-- Next -->
+            </div>
+
         </div>
    
 </div><br><br><br><br>
@@ -104,6 +173,8 @@
 
 <!-- Muat file JavaScript dari folder /public/js -->
 <script src="/js/scripts.js"></script>
+
+<script src="../../public/js/bulanan.js"></script>
 
 
 
