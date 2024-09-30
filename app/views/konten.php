@@ -13,7 +13,7 @@
    <?php include 'layout/navbar.php';?>
 
 <div class="container">
-    <h1>Muthoba'ah Harian</h1>
+    <!-- <h1>Muthoba'ah Harian</h1> -->
 
     <div class="date">Monday, November 27, 2023</div>
     <div class="cards">
